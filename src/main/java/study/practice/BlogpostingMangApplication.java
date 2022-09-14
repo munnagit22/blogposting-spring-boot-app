@@ -10,7 +10,7 @@ public class BlogpostingMangApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BlogpostingMangApplication.class, args);
-		System.out.println("Blog Applicatoin Running.........");
+		System.out.println("Blog  post Applicatoin Running.........");
 	}
 
 }
