@@ -1,0 +1,16 @@
+blog:
+  message: blog not found in database
+  messageExist: Blog is already exist in database
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 12345
+    url: jdbc:mysql://localhost:3306/blogdb
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
