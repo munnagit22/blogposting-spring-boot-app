@@ -1,5 +1,5 @@
 blog:
-  message: blog not found in database
+  message: blog id doesn't exist in database
   messageExist: Blog is already exist in database
 spring:
   datasource:
